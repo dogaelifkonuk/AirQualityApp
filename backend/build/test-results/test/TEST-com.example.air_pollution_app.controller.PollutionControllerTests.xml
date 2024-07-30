@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.air_pollution_app.controller.PollutionControllerTests" tests="1" skipped="0" failures="1" errors="0" timestamp="2024-07-29T11:59:23" hostname="DESKTOP-OF9LVJV" time="0.363">
+  <properties/>
+  <testcase name="testStartDateBeforeEarliestDate()" classname="com.example.air_pollution_app.controller.PollutionControllerTests" time="0.363">
+    <failure message="org.opentest4j.AssertionFailedError: Expected com.example.air_pollution_app.exception.DateOutOfRangeException to be thrown, but nothing was thrown." type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Expected com.example.air_pollution_app.exception.DateOutOfRangeException to be thrown, but nothing was thrown.
+	at app//org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:152)
+	at app//org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:73)
+	at app//org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at app//org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3115)
+	at app//com.example.air_pollution_app.controller.PollutionControllerTests.testStartDateBeforeEarliestDate(PollutionControllerTests.java:97)
+	at java.base@17/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base@17/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base@17/java.util.ArrayList.forEach(ArrayList.java:1511)
+</failure>
+  </testcase>
+  <system-out><![CDATA[
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.1)
+
+2024-07-29T14:59:20.190+03:00  INFO 17952 --- [air-pollution-app] [    Test worker] c.e.a.c.PollutionControllerTests         : Starting PollutionControllerTests using Java 17 with PID 17952 (started by DELL in C:\Users\DELL\Desktop\AirQualityGlobal)
+2024-07-29T14:59:20.194+03:00  INFO 17952 --- [air-pollution-app] [    Test worker] c.e.a.c.PollutionControllerTests         : No active profile set, falling back to 1 default profile: "default"
+2024-07-29T14:59:22.969+03:00  INFO 17952 --- [air-pollution-app] [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-07-29T14:59:22.969+03:00  INFO 17952 --- [air-pollution-app] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-07-29T14:59:22.974+03:00  INFO 17952 --- [air-pollution-app] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2024-07-29T14:59:23.167+03:00  INFO 17952 --- [air-pollution-app] [    Test worker] c.e.a.c.PollutionControllerTests         : Started PollutionControllerTests in 3.464 seconds (process running for 5.115)
+2024-07-29T14:59:23.219+03:00  INFO 17952 --- [air-pollution-app] [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-07-29T14:59:23.219+03:00  INFO 17952 --- [air-pollution-app] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-07-29T14:59:23.221+03:00  INFO 17952 --- [air-pollution-app] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
